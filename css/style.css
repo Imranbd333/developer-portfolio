@@ -10,8 +10,9 @@ h1{
 .orange-c{
     color: rgb(211, 144, 21);
 }
-section{
+.flexiable-content{
     display: flex;
+    margin-bottom: 50px;
 }
 .half-width{
 
@@ -46,4 +47,36 @@ border-radius: 10px;
     background-image: url(../images/dream-bg.png);
     background-position: right;
     background-repeat: no-repeat;
+}
+.experience{
+margin: auto;
+background-image: url(../images/exp-bg.png);
+background-position: left;
+background-repeat: no-repeat;
+}
+.experience-item{
+
+width: 40%;
+
+box-shadow: 10px 10px 30px grey;
+
+margin: 0 5%;
+
+padding: 0 5%;
+}
+.experience-item h1{
+    font-size: 30px;
+}
+.experience-item p{   
+color: #999;
+}
+#full-stack-webdev{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
