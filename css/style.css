@@ -80,3 +80,6 @@ color: #999;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
+fotter p{
+    text-align: center;
+}
